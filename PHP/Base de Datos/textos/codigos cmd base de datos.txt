@@ -1,0 +1,8 @@
+este codigo es para ingresar a mysql->cd C:/xampp/mysql/bin
+este codigo tambien->mysql -u root -h localhost -p
+este codigo crea la base de datos->CREATE DATABASE ucsp;
+este codigo indica que usaremos la base de datos->USE ucsp;
+aqui defines los parametros de tu base de datos aqui solo puse dos que seran el codigo y el nombre pero puedes poner los que tu quieras->CREATE TABLE alumnos(codigo CHAR(8), nombre VARCHAR(40));
+este codigo es para saber si se creo correctamente tu base de datos y te muestra que es lo que pide->DESCRIBE alumnos;
+este codigo es para ingresar datos a la base de datos ahi pongo ya el codigo y el nombre->INSERT INTO alumnos VALUES('101','Mena Suarez');
+cuando ya hallas agregado los que querias utilizas este codigo para ver tu base de datos->SELECT * FROM alumnos;
